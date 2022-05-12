@@ -1,11 +1,11 @@
 #include "TextEditor.h"
 int main(){
 
-    while (true) {
+   /* while (true) {
 
-        int chioce; 
-        cin >> chioce;
-        switch (chioce) {
+        int choice;
+        cin >> choice;
+        switch (choice) {
 
         case 1:
             appending_text();
@@ -47,14 +47,7 @@ int main(){
             return 0;
         }
 
-
-
-
-
-
-
-
-    }
+    }*/
 
     return 0;
 }
