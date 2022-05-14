@@ -9,7 +9,9 @@
 #include <fstream>
 #include<conio.h>
 #include <regex>
-inline bool exists_test(const std::string& name);
+using namespace std;
+extern string text;
+inline bool exists_test(const string& name);
 
 void appending_text();
 
@@ -22,8 +24,7 @@ void encrypting();
 void decrypting();
 
 void merging();
-
-void save(std::string s);
+void save(string &s);
 
 void To_upper();
 
@@ -41,6 +42,3 @@ void linesCount();
 
 void first_char_cap();
 
-using namespace std;
-string fileName;
-string text{};

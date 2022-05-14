@@ -1,5 +1,4 @@
 #include "TextEditor.h"
-
 int main() {
 
       while (true) {
