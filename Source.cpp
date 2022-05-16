@@ -87,6 +87,7 @@ void merging() {
     }
 }
 void To_upper() {
+    text.clear();
     fstream file{ fileName.c_str(), ios::in | ios::out };
     char ch;
     while(file.get(ch)){
