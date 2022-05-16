@@ -11,6 +11,7 @@
 #include <regex>
 using namespace std;
 extern string text;
+extern string fileName;
 inline bool exists_test(const string& name);
 
 void appending_text();
