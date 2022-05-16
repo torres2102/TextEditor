@@ -199,7 +199,7 @@ void first_char_cap(){
 }
 
 void save(string &s) {
-    fstream file{ fileName.c_str(), ios::trunc };
+    fstream file{ fileName.c_str()};
     string fileSavedName;
     fstream saveFile{};
     cout << "Enter a name for the file you want to save the changes on: ";
