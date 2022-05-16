@@ -135,7 +135,7 @@ void appearance() {
 void searching() {
     string word_to_find{};
     string word_read{};
-    int match_count{ 0 };
+    bool match{};
     fstream file{ fileName.c_str() };
     if (!file) {
         cerr << "Problem opening file" << std::endl;
@@ -144,10 +144,10 @@ void searching() {
     cin >> word_to_find;
     while (file >> word_read) {
         if (find_substring(word_to_find, word_read)) {
-            ++match_count;
+            cout << "The substring " << word_to_find << " was found in file"<< endl;
+            break;
         }
     }
-    cout << "The substring " << word_to_find << " was found in file"<< endl;
 }
 
 void wordsCount() {
