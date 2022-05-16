@@ -182,7 +182,6 @@ void linesCount() {
 void first_char_cap(){
     text.clear();
     char ch;
-    bool space_check;
     fstream file{};
     file.open(fileName.c_str() , ios::in | ios::out);
     while(file.get(ch)){
