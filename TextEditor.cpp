@@ -47,7 +47,7 @@ int main() {
           case 8:
               character_count();
               break;
-          case 9:
+          case 9: 
               linesCount();
               break;
           case 10:
